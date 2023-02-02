@@ -145,6 +145,7 @@
     <ClInclude Include="IImageGeneratorService.h" />
     <ClInclude Include="IImageState.h" />
     <ClInclude Include="Image.h" />
+    <ClInclude Include="ImageGeneratorService.h" />
     <ClInclude Include="ImageResolution.h" />
     <ClInclude Include="ImageState.h" />
     <ClInclude Include="pch.h" />
@@ -155,6 +156,7 @@
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageGeneratorService.cpp" />
     <ClCompile Include="ImageResolution.cpp" />
     <ClCompile Include="ImageState.cpp" />
     <ClCompile Include="pch.cpp">
