@@ -1,0 +1,7 @@
+name: installation
+
+on: [pull_request, push, fork, workflow_dispatch]
+
+jobs:
+  install:
+    runs-on: windows-latest
