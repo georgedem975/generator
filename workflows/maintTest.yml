@@ -1,7 +1,0 @@
-name: installation
-
-on: [pull_request, push, fork]
-
-jobs:
-  install:
-    runs-on: windows-latest
