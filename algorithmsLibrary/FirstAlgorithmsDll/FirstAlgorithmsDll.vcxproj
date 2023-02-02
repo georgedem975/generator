@@ -142,6 +142,7 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="IImage.h" />
     <ClInclude Include="IImageState.h" />
+    <ClInclude Include="Image.h" />
     <ClInclude Include="ImageResolution.h" />
     <ClInclude Include="ImageState.h" />
     <ClInclude Include="pch.h" />
@@ -151,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Image.cpp" />
     <ClCompile Include="ImageResolution.cpp" />
     <ClCompile Include="ImageState.cpp" />
     <ClCompile Include="pch.cpp">

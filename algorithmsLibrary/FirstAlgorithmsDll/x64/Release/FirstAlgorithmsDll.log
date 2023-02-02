@@ -1,5 +1,8 @@
 ﻿  pch.cpp
   dllmain.cpp
+  Image.cpp
+C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\Image.cpp(43,76): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\Image.cpp(88,65): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   ImageResolution.cpp
   ImageState.cpp
 C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\ImageState.cpp(18,46): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
