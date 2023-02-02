@@ -1,6 +1,11 @@
 ﻿  pch.cpp
   dllmain.cpp
   ImageResolution.cpp
+  ImageState.cpp
+C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\ImageState.cpp(18,46): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\ImageState.cpp(37,46): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\ImageState.cpp(97,56): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\ImageState.cpp(114,51): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   Pixel.cpp
   PixelHEX.cpp
   PixelRGB.cpp
