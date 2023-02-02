@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="GenerateHorizonImageByDiamondSquareMidpointDisplacement.h" />
     <ClInclude Include="GenerateLevelsImageHandler.h" />
     <ClInclude Include="GeneratorHandler.h" />
     <ClInclude Include="IAlgorithm.h" />
@@ -157,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="GenerateHorizonImageByDiamondSquareMidpointDisplacement.cpp" />
     <ClCompile Include="GenerateLevelsImageHandler.cpp" />
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="ImageGeneratorService.cpp" />

@@ -1,5 +1,8 @@
 ﻿  pch.cpp
   dllmain.cpp
+  GenerateHorizonImageByDiamondSquareMidpointDisplacement.cpp
+C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\GenerateHorizonImageByDiamondSquareMidpointDisplacement.cpp(82,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\GenerateHorizonImageByDiamondSquareMidpointDisplacement.cpp(93,26): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   GenerateLevelsImageHandler.cpp
   Image.cpp
 C:\Users\user\Desktop\модерация репозитория\generator\algorithmsLibrary\FirstAlgorithmsDll\Image.cpp(43,76): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
