@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="IImage.h" />
     <ClInclude Include="ImageResolution.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>

@@ -1,4 +1,6 @@
-﻿  ImageResolution.cpp
+﻿  pch.cpp
+  dllmain.cpp
+  ImageResolution.cpp
   Создание кода
   Previous IPDB not found, fall back to full compilation.
   All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
