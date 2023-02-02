@@ -1,6 +1,6 @@
 name: installation
 
-on: [pull_request, push, fork, w]
+on: [pull_request, push, fork]
 
 jobs:
   install:
