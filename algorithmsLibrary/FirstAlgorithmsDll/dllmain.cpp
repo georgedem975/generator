@@ -17,3 +17,8 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     return TRUE;
 }
 
+
+
+extern "C"
+{
+}
