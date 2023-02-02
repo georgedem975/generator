@@ -54,6 +54,12 @@
     <ClInclude Include="ImageGeneratorService.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="GeneratorHandler.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateLevelsImageHandler.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -81,6 +87,9 @@
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
     <ClCompile Include="ImageGeneratorService.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateLevelsImageHandler.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>

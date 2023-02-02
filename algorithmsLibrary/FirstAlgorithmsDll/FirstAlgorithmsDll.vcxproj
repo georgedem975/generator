@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="GenerateLevelsImageHandler.h" />
+    <ClInclude Include="GeneratorHandler.h" />
     <ClInclude Include="IAlgorithm.h" />
     <ClInclude Include="IImage.h" />
     <ClInclude Include="IImageGeneratorService.h" />
@@ -155,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="GenerateLevelsImageHandler.cpp" />
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="ImageGeneratorService.cpp" />
     <ClCompile Include="ImageResolution.cpp" />
