@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="65fc910d-6a20-47c5-955f-74830875c9a4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +35,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/модерация репозитория/generator/mainApp/generator"
+    "last_opened_file_path": "C:/Users/user/Desktop/модерация репозитория/generator/mainApp/generator/src"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\модерация репозитория\generator\mainApp\generator\src" />
       <recent name="C:\Users\user\Desktop\модерация репозитория\generator\mainApp\generator" />
     </key>
   </component>
@@ -75,5 +79,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../../../../../../Program Files/Java/jdk-17.0.1/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java</url>
+          <line>50</line>
+          <properties class="java.awt.event.ActionListener" method="actionPerformed">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,8 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MyFrame extends JFrame {
+public class MyFrame extends JFrame implements ActionListener {
 
     private int width;
 
@@ -17,6 +18,14 @@ public class MyFrame extends JFrame {
     private final ImageIcon imageIcon;
 
     private Color backgroundColor;
+
+    private JButton button;
+
+    private JComboBox box;
+
+    private JTextField textField;
+
+    private CGenerator generator;
 
     public MyFrame(String title,
                    int width,
@@ -45,6 +54,8 @@ public class MyFrame extends JFrame {
         this.backgroundColor = backgroundColor;
         this.imageIcon = imageIcon;
 
+        this.generator = new CGenerator();
+
         this.Init();
     }
 
@@ -65,10 +76,9 @@ public class MyFrame extends JFrame {
                           int height,
                           String text,
                           int tracker) {
-        JButton button;
         button = new JButton();
         button.setBounds(x, y, width, height);
-        button.addActionListener((ActionListener) this);
+        button.addActionListener(this);
         button.setText(text);
         button.setFocusable(false);
         button.setHorizontalTextPosition(JButton.CENTER);
@@ -77,6 +87,7 @@ public class MyFrame extends JFrame {
         button.setForeground(Color.cyan);
         button.setBackground(Color.LIGHT_GRAY);
         button.setBorder(BorderFactory.createEtchedBorder());
+        this.add(button);
     }
 
     private void Init() {
@@ -89,5 +100,36 @@ public class MyFrame extends JFrame {
         this.setIconImage(this.imageIcon.getImage());
 
         this.getContentPane().setBackground(this.backgroundColor);
+
+        String positions[] = { "midpoint displacement", "diamond square"};
+        box = new JComboBox(positions);
+        box.setBounds(40, 40, 130, 20);
+        this.add(box);
+        this.setSize(400, 400);
+        this.setLayout(null);
+        this.setVisible(true);
+
+        textField = new JTextField("path");
+        textField.setBounds(40, 80, 200, 30);
+        this.add(textField);
+        this.setSize(300, 300);
+        this.setLayout(null);
+        this.setVisible(true);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == this.button){
+            if (this.box.getSelectedItem() == "midpoint displacement"){
+                generator.generateImageByDSMD();
+                WriterImage writerImage = new WriterImage();
+                writerImage.writeImage(this.textField.getText(), this.generator);
+            }
+            else {
+                generator.generateImageByDS();
+                WriterImage writerImage = new WriterImage();
+                writerImage.writeImage(this.textField.getText(), this.generator);
+            }
+        }
     }
 }
