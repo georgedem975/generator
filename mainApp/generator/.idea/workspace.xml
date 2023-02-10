@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="generator:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65fc910d-6a20-47c5-955f-74830875c9a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/generator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generator/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generator/MyFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriterImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriterImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2LYGbWdFOcpmJlbGhWS3iLcDziy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,7 +40,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/модерация репозитория/generator/mainApp/generator/src"
+    "last_opened_file_path": "C:/Users/user/Desktop/модерация репозитория/generator/mainApp/generator",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -43,7 +52,14 @@
       <recent name="C:\Users\user\Desktop\модерация репозитория\generator\mainApp\generator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.generator.jar">
+    <configuration name="Generator" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="generator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="generator" />
@@ -51,8 +67,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="generator.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/generator_jar/generator.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Generator" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.generator.jar" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.generator.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
