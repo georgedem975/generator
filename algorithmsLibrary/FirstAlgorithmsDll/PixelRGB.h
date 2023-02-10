@@ -15,6 +15,9 @@ public:
 
     std::string GetPixelColorFormat() const override;
     std::string GetColorsData() const override;
+    short getR() const { return this->r; }
+    short getG() const { return this->g; }
+    short getB() const { return this->b; }
 
 private:
     std::string* name;
